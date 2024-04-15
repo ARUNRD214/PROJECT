@@ -20,7 +20,7 @@ def predict_api():
     #print(output[0])
     a='\U0001F603'
 
-    #return jsonify(int(output[0]))
+    return jsonify("ARUN")
     if(int(output[0])==0):
         return jsonify("Tomorrow will be a SUNNY Day"+a)
     else:
